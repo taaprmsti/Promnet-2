@@ -1,0 +1,549 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.isi {
+  background-color: #EAF4E4;
+    color: #4a3b12;
+    font-family: "Segoe UI", Verdana, sans-serif;
+    line-height: 1.7;
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 32px 20px 48px;
+    box-sizing: border-box;
+}
+
+#judul-utama{
+    background-color: #86C57A;
+    text-align: center;
+}
+
+.aku{
+   background-color: #B7DDA8;
+    padding: 10px;
+    margin: 10px auto;
+    width: 500px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+nav{
+    background-color:#24401f;
+}
+
+nav{
+   background-color: #F3E5AB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 50px;
+    box-shadow: 0px 2px 4px #A8862B;
+}
+
+.navigasi a{
+    text-decoration: none;
+    color: #584717;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.navigasi a:hover{
+    color:#0a1e07;
+    font-weight: bold;
+}
+
+.deskripsi{
+    background-color: #B7DDA8;
+    padding: 20px;
+    margin: 10px auto;
+    width: 500px;
+    border-radius: 15px;
+
+}
+
+.list{
+    background-color: #B7DDA8;
+    padding: 20px;
+    margin: 10px auto;
+    width: 500px;
+    border-radius: 15px;
+}
+
+.belajar{
+    background-color: #B7DDA8;
+    padding: 20px;
+    margin: 10px auto;
+    width: 500px;
+    border-radius: 15px;
+}
+
+.myfoto{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;       
+  border-radius: 50%;
+  border: 5px solid;
+  animation: muncul 1.5s ease;
+}
+
+@keyframes muncul {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.terakhir{
+    text-align: center;
+    font-style: italic;
+}
+
+#judul{
+    background-color: #86C57A;
+    text-align: center;
+}
+
+.isi-dalam{
+  background-color: #EAF4E4;
+    color: #4a3b12;
+    font-family: "Segoe UI", Verdana, sans-serif;
+    line-height: 1.7;
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 32px 20px 48px;
+    box-sizing: border-box;
+}
+
+.profil{
+  background-color: #B7DDA8;
+    padding: 5px 15px;
+    margin: 15px auto;
+    width: 500px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.deskripsi-dua{
+    background-color: #B7DDA8;
+    padding: 20px;
+    margin: 20px auto;
+    width: 500px;
+    border-radius: 15px;
+}
+
+.tabel{
+    background-color: #B7DDA8;
+    padding: 20px;
+    margin: 10px auto;
+    width: 500px;
+    border-radius: 15px;
+}
+
+.isi-tabel{
+     padding: 20px;
+    margin: 10px auto;
+    width: 500px;
+    border-radius: 15px;
+}
+
+.hobi{
+    padding: 20px;
+    margin: 5px auto;
+    width: 500px;
+    border-radius: 15px;
+}
+
+.riwayat{
+    padding: 20px;
+    margin: 5px auto;
+    width: 500px;
+    border-radius: 15px;
+}
+ .list-satu{
+    background-color: #B7DDA8;
+    padding: 20px;
+    margin: 5px auto;
+    width: 500px;
+    border-radius: 20px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.list-dua{
+     background-color: #B7DDA8;
+    padding: 20px;
+    margin: 10px auto;
+    width: 500px;
+    border-radius: 20px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.navigasi-dua a{
+    text-decoration: none;
+    color: #584717;
+    margin: 0 10px;
+    font-weight: bold;
+ }
+
+ .navigasi-dua a:hover{
+    color:#0a1e07;
+    font-weight: bold;
+ }
+
+ #judul-contact{
+    background-color: #86C57A;
+    text-align: center;
+}
+
+.informasi{
+    text-align: center;
+}
+
+.deskripsi-tiga{
+    background-color: #B7DDA8;
+    padding: 20px;
+    margin: 5px auto;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.form{
+     text-align: center;
+}
+
+.isi-tiga{
+    background-color: #EAF4E4;
+    color: #4a3b12;
+    font-family: "Segoe UI", Verdana, sans-serif;
+    line-height: 1.7;
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 32px 20px 48px;
+    box-sizing: border-box;
+}
+
+.navigasi-empat a{
+    text-decoration: none;
+    color: #584717;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.navigasi-empat a:hover{
+    color:#0a1e07;
+    font-weight: bold;
+}
+
+.isi-empat{
+    background-color: #EAF4E4;
+    color: #4a3b12;
+    font-family: "Segoe UI", Verdana, sans-serif;
+    line-height: 1.7;
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 32px 20px 48px;
+    box-sizing: border-box;
+}
+
+#judul-empat{
+    background-color: #86C57A;
+    text-align: center;
+}
+
+.navigasi-lima a{
+    text-decoration: none;
+    color: #584717;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.navigasi-lima a:hover{
+    color:#0a1e07;
+    font-weight: bold;
+}
+
+.daftar{
+    text-align: center;
+}
+
+.deskripsi-empat{
+    background-color: #B7DDA8;
+    padding: 20px;
+    margin: 5px auto;
+    width: 500px;
+    border-radius: 20px; 
+}
+
+.project1{
+    text-align: center;
+}
+
+.deskripsi1{
+    background-color: #B7DDA8;
+    padding: 20px;
+    margin: 5px auto;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.project2{
+    text-align: center;
+}
+
+.deskripsi2{
+    background-color: #B7DDA8;
+    padding: 20px;
+    margin: 5px auto;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.project3{
+    text-align: center;
+}
+
+.deskripsi3{
+    background-color: #B7DDA8;
+    padding: 20px;
+    margin: 5px auto;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.project4{
+    text-align: center;
+}
+
+.deskripsi4{
+    background-color: #B7DDA8;
+    padding: 20px;
+    margin: 5px auto;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.foto1{
+  width: 280px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 3px solid #B7DDA8;
+}
+
+.foto2{
+     width: 280px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 3px solid #B7DDA8;
+}
+
+.foto3{
+    width: 280px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 3px solid #B7DDA8;
+}
+
+.foto4{
+     width: 280px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 3px solid #B7DDA8;
+}
+
+.foto5{
+     width: 350px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 3px solid #B7DDA8;
+}
+
+.foto6{
+     width: 280px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 3px solid #B7DDA8;
+}
+
+.gallery{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto 30px;
+}
+
+.galery1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto 30px;
+}
+
+.galery2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto 30px;
+}
+
+.galery3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto 30px;
+}
+
+.galery4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto 30px;
+}
+
+#judul-lima{
+    background-color: #86C57A;
+    text-align: center;
+}
+
+.navigasi5 a{
+    text-decoration: none;
+    color: #584717;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.navigasi5 a:hover{
+    color:#0a1e07;
+    font-weight: bold;
+}
+
+.isi-pengalaman{
+    background-color: #EAF4E4;
+    color: #4a3b12;
+    font-family: "Segoe UI", Verdana, sans-serif;
+    line-height: 1.7;
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 32px 20px 48px;
+    box-sizing: border-box;
+}
+
+.pengalaman{
+    text-align: center;
+}
+
+.deskripsi-pengalaman{
+    background-color: #B7DDA8;
+    padding: 20px;
+    margin: 5px auto;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.pengalaman1{
+    text-align: center;
+}
+
+.mix-foto{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto 30px;
+}
+
+.bingkai1{
+    width: 280px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 3px solid #B7DDA8;
+}
+
+.deskripsi-1{
+    text-align: center;
+}
+
+.pengalaman2{
+    text-align: center; 
+}
+
+.bingkai2{
+   width: 280px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 3px solid #B7DDA8;  
+}
+
+.mix-foto1{
+     width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto 30px;
+}
+
+.bingkai3{
+    width: 280px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 3px solid #B7DDA8;
+}
+
+.mix-foto2{
+   width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto 30px; 
+}
+
+.deskripsi-2{
+    text-align: center; 
+}
+
+.pengalaman3{
+    text-align: center; 
+}
+
+.bingkai4{
+    width: 280px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 3px solid #B7DDA8;
+}
+
+.mix-foto3{
+   width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto 30px;  
+}
+
+.deskripsi-3{
+    text-align: center; 
+}
